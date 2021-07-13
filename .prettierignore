@@ -1,0 +1,7 @@
+.github
+.netlify
+.vscode
+.gitattributes
+node_modules
+css/vendor
+js/vendor
