@@ -1,6 +1,7 @@
+/* eslint-disable no-undef */
 // !main.js
 
-window.addEventListener('load', () => {});
+window.addEventListener('load', () => null);
 
 window.addEventListener('offline', () =>
   showToast(store.lib.toasts.connection),
@@ -11,5 +12,5 @@ window.addEventListener('online', () =>
 );
 
 // Disable console logging
-console.log = function() {};
-console.info = function() {};
+console.log = () => null;
+console.info = () => null;

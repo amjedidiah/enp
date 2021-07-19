@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 // !store.js
 
@@ -5,7 +6,7 @@
  * Data store
  * @type {store} store
  */
-const store = {
+ const store = {
   lib: {
     toasts: {
       connection: newToast('#connectionToast', false),
