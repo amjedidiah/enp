@@ -7,4 +7,4 @@
  * @param {Document | Element} parElem - the parent DOM element to reference
  * @return {Element} - a selected DOM element
  */
- const selElem = (qS, parElem = document) => parElem.querySelector(qS);
+const selElem = (qS, parElem = document) => parElem.querySelector(qS);

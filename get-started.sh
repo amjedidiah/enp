@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #  Add global dependencies
-npm i -g prettier eslint netlify live-server
+npm i -g eslint gh-pages live-server netlify prettier yarn
 
 #  Add global dependencies
-npm i
+yarn add -D eslint eslint-config-google pre-commit
 
 # Start with live server
-npx yarn dev
+yarn dev

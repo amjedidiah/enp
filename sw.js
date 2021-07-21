@@ -23,7 +23,7 @@ const filesToCache = [
   'js/toast.js',
   'js/toast.min.js',
   'js/utils.js',
-  'js/utils.min.js',
+  'js/utils.min.js'
 ];
 const vNum = Math.floor(Math.random() * 1000000000000) + 1;
 const staticCacheName = `canada-cache-v${vNum}`;
@@ -32,7 +32,7 @@ self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(staticCacheName).then((cache) => {
       return cache.addAll(filesToCache);
-    }),
+    })
   );
 });
 
@@ -43,7 +43,7 @@ self.addEventListener('fetch', (event) => {
         return response;
       }
       return fetch(event.request);
-    }),
+    })
   );
 });
 
@@ -54,9 +54,9 @@ self.addEventListener('activate', (event) => {
     caches.keys().then((cacheNames) => {
       return Promise.all(
         cacheNames.map(
-          (cN) => cacheWhitelist.indexOf(cN) === -1 && caches.delete(cN),
-        ),
+          (cN) => cacheWhitelist.indexOf(cN) === -1 && caches.delete(cN)
+        )
       );
-    }),
+    })
   );
 });
