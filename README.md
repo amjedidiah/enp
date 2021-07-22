@@ -51,7 +51,8 @@ bash get-started.sh
 - [ ] Replace all occurrences of **_pwa_** with app name
 - [ ] Update **_sw.js_** with files to cache
 - [ ] Update **_site.webmanifest_**, including shortcuts
-- [ ] Delete **_shortcut.html_**, including shortcuts
+- [ ] Delete **_index.html_**
+- [ ] Delete **_shortcut.html_**
 - [ ] Update **_README.md_**, according to this [guide](https://raw.githubusercontent.com/amjedidiah/react-app-template/master/README.md)
 - [ ] Update **_humans.txt_**
 - [ ] Update **_favicon.ico_**

@@ -5,6 +5,8 @@
 
     <title>PWA | Home</title>
     <meta name="description" content="A Progressive Web App" />
+    <meta name="robots" content="index,follow" />
+    <meta property="fb:page_id" content="" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--
@@ -15,6 +17,7 @@
       Give site tooltip for pinning
     -->
     <meta name="msapplication-tooltip" content="PWA" />
+    <meta name="msapplication-TileColor" content="#000000">
     <!-- Make it possible to pin app on mobile -->
     <meta name="mobile-web-app-capable" content="yes" />
     <!-- Get Site to look like app on iOS  -->
@@ -30,6 +33,10 @@
       Add icon for when pinned to iOS & any other mobile
      -->
     <link rel="icon" sizes="192x192" href="images/logo192.png" />
+    <link rel="icon" sizes="128x128" href="images/logo128.png" />
+    <link rel="icon" sizes="64x64" href="images/logo64.png" />
+    <link rel="icon" sizes="32x32" href="images/logo32.png" />
+    <link rel="icon" sizes="16x16" href="images/logo16.png" />
     <link rel="apple-touch-icon" href="images/logo512.png" />
     <!--
       Display certain image when site is loaded as app on iOS
@@ -40,11 +47,20 @@
       href="images/logo512.png"
     />
     <link rel="manifest" href="site.webmanifest" />
+    <link rel="canonical" href="" />
 
     <!--
       DNS Prefetching: prefetches the site that is included in the href
     -->
-    <link rel="dns-prefetch" href="https://ka-f.fontawesome.com" />
+    <link rel="dns-prefetch" href="//ka-f.fontawesome.com" />
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body style="background: #ffffff">
