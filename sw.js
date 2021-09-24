@@ -15,6 +15,7 @@ const filesToCache = [
   'js/vendor/fontawesome.min.js',
   'js/vendor/free-v4-shims.min.js',
   'js/vendor/free.min.js',
+  'js/vendor/jquery.min.js',
   'js/vendor/plugins.min.js',
   'js/main.js',
   'js/main.min.js',

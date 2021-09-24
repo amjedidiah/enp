@@ -1,7 +1,9 @@
 /* eslint-disable no-undef */
 // !main.js
 
-window.addEventListener('load', () => null);
+window.addEventListener('load', () => {
+  loadComponent(['header', 'footer']);
+});
 
 window.addEventListener('offline', () =>
   showToast(store.lib.toasts.connection),

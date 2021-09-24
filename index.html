@@ -17,7 +17,7 @@
       Give site tooltip for pinning
     -->
     <meta name="msapplication-tooltip" content="PWA" />
-    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-TileColor" content="#000000" />
     <!-- Make it possible to pin app on mobile -->
     <meta name="mobile-web-app-capable" content="yes" />
     <!-- Get Site to look like app on iOS  -->
@@ -53,8 +53,8 @@
       DNS Prefetching: prefetches the site that is included in the href
     -->
     <link rel="dns-prefetch" href="//ka-f.fontawesome.com" />
-    <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -64,21 +64,11 @@
   </head>
 
   <body style="background: #ffffff">
-    <!-- [if IE]>
-    <p class="browserupgrade">
-      You are using an <strong>outdated</strong> browser. Please
-      <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-      your experience and security.
-    </p>
-    <![endif] -->
+    <!-- Document Header -->
+    <header id="header"></header>
 
     <!-- Document Main Content -->
     <main id="root">
-      <!-- Document Header -->
-      <header>
-        <nav></nav>
-      </header>
-
       <section id="home">
         <h1 class="d-none">Home Section</h1>
         <article>
@@ -86,14 +76,12 @@
           <p>Hello world</p>
         </article>
       </section>
-
-      <!-- Document Footer -->
-      <footer>
-        <nav></nav>
-      </footer>
     </main>
+    <!-- Document Footer -->
+    <footer id="footer"></footer>
 
     <!-- ! Load JavaScript files -->
+    <script src="js/vendor/jquery.min.js" defer></script>
     <script src="js/vendor/bootstrap.bundle.min.js" defer></script>
     <script src="js/vendor/fontawesome.min.js" defer></script>
     <script src="js/vendor/plugins.min.js" defer></script>

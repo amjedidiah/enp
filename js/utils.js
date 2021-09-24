@@ -8,3 +8,8 @@
  * @return {Element} - a selected DOM element
  */
 const selElem = (qS, parElem = document) => parElem.querySelector(qS);
+
+const loadComponent = (sections) =>
+  sections.forEach((section) =>
+    $(`#${section}`).load(`components/${section}.html`),
+  );
